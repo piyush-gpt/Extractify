@@ -183,7 +183,7 @@ All errors are logged to `pipeline.log` and the console.
 ## Cost Optimization
 
 - Uses `gemini-2.5-flash` for cost-effective processing
-- Limits token usage with `MAX_TOKENS` setting
+- Limits token usage with `MAX_TOKENS` setting (you can change in value in config.py)
 - Efficient prompt design to minimize API calls
 
 ## Extending the Pipeline
