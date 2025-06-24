@@ -19,7 +19,7 @@ A modular document processing pipeline that extracts structured data from drivin
 pip install -r requirements.txt
 ```
 
-### 2. Environment Setup
+### 2. Environment Setup  (take a look at .env.example file)
 
 Create a `.env` file in the project root:
 
