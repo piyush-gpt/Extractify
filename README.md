@@ -5,7 +5,7 @@ A modular document processing pipeline that extracts structured data from drivin
 ## Features
 
 - **OCR Processing**: Uses Google Vision API for high-accuracy text extraction
-- **Structured Data Extraction**: Google Gemini LLM with LangChain for intelligent data parsing
+- **Structured Data Extraction**: Google Gemini LLM or OPENAI LLM with LangChain for intelligent data parsing
 - **Multiple Document Types**: Supports driving licenses, shop receipts, and resumes
 - **Modular Architecture**: Easy to extend for new document types
 - **Robust Error Handling**: Comprehensive logging and error recovery
