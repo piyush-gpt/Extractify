@@ -39,8 +39,8 @@ class Education(BaseModel):
 class Resume(BaseModel):
     """Model for resume/CV data extraction"""
     full_name: str = Field(description="Full name of the person")
-    email: str = Field(description="Email address")
-    phone_number: str = Field(description="Phone number")
+    email: Optional[str] = Field(description="Email address", default="Not found")
+    phone_number: Optional[str] = Field(description="Phone number")
     skills: List[str] = Field(default_factory=list, description="List of skills")
     work_experience: List[WorkExperience] = Field(default_factory=list, description="List of work experiences")
     education: Optional[List[Education]] = Field(default_factory=list, description="List of educational background")
